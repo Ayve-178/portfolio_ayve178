@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <NavMenu />
         <Routes>
-          <Route path="/portfolio_ayve178/" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Routes>
           <Route path="/about" element={<AboutSection />} />
