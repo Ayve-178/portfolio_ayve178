@@ -1,0 +1,47 @@
+.projectItem-image {
+  width: 220px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 12px;
+  display: inline-block;
+  border: 2px solid gainsboro;
+}
+
+img {
+  height: 100%;
+}
+
+.projectItem-info {
+  margin-top: 1rem;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 220px;
+}
+
+.projectItem-title {
+  font-size: 1.7rem;
+}
+
+.projectItem-desc {
+  font-size: 1.6em;
+  font-family: "RobotoMono Regular";
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectItem {
+    align-items: center;
+  }
+  .projectItem-image {
+    height: 350px;
+  }
+  .projectItem-desc {
+    font-size: 1.4rem;
+    width: 200px;
+    text-align: center;
+  }
+  .projectItem-title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,59 @@
+.hero {
+  height: 100vh;
+  min-height: 950px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  margin-top: 0.2rem;
+}
+
+.hero-heading span {
+  display: inline-block;
+  width: 100%;
+}
+
+.hero-name {
+  font-family: "Montserrat SemiBold";
+  font-size: 4rem;
+  color: gainsboro;
+}
+
+.hero-image {
+  max-width: 900px;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 4px solid white;
+}
+
+.hero-info {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    min-height: 750px;
+  }
+  .hero-heading {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .hero-name {
+    font-size: 2.8rem;
+  }
+  .hero-image {
+    height: 300px;
+  }
+  .hero-info {
+    margin-top: 3rem;
+  }
+}

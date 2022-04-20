@@ -1,0 +1,19 @@
+.btnComponent {
+  margin-top: 2rem;
+}
+
+.button {
+  font-size: 2.2rem;
+  background-color: gainsboro;
+  color: #1e1e1e;
+  padding: 0.7em 2em;
+  border-radius: 8px;
+  display: inline-block;
+  border: 2px solid gainsboro;
+}
+
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 1.8rem;
+  }
+}

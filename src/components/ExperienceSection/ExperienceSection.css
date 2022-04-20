@@ -1,0 +1,128 @@
+.experience {
+  margin-top: 480px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.experienceHeader {
+  text-align: center;
+}
+
+.experienceContainer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expSection-left,
+.expSection-right {
+  flex: 1;
+}
+
+.expSection-left {
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 370px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.expSection-right {
+  background-color: #1e1e1e;
+  width: 100px;
+  height: 370px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.expSection-left p {
+  font-size: 2rem;
+  margin: 2px;
+  margin-left: 2rem;
+  line-height: 2.8rem;
+}
+
+.expSection-right {
+  margin-top: 30px;
+  font-size: 2rem;
+  margin: 2px;
+  margin-left: 4rem;
+  line-height: 2.8rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 95px;
+}
+
+.expSection-right p {
+  margin-left: 30px;
+  line-height: 2.8rem;
+}
+
+.solved {
+  margin-left: 0 !important;
+}
+
+.additionalExperienceContainer {
+  background-color: #1e1e1e;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 4rem;
+  border-radius: 12px;
+  padding: 3rem;
+  font-size: 1.8rem;
+}
+
+.addHead {
+  font-family: "Montserrat Regular" !important;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.addExpDuration {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .experience {
+    margin-top: 3000px;
+    font-size: 1.2rem;
+    width: 320px;
+  }
+  .experienceContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .expSection-left {
+    margin-bottom: 50px;
+    width: 380px;
+  }
+
+  .expSection-left p {
+    width: 350px;
+  }
+
+  .expSection-right {
+    margin-left: 16px;
+    width: 380px;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+
+  .expSection-right p {
+    width: 350px;
+  }
+
+  .additionalExperienceContainer {
+    margin-left: 5px !important;
+    width: 370px;
+    font-size: 1.6rem;
+  }
+
+  .addExpItem p {
+    width: 320px;
+    margin-right: 5px;
+  }
+}

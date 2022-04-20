@@ -1,0 +1,14 @@
+.sectionTitle {
+  text-align: center;
+}
+h2 {
+  font-family: "Montserrat Bold";
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+}

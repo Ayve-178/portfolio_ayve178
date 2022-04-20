@@ -1,0 +1,17 @@
+.projectSection {
+  padding: 5rem 0;
+}
+
+.project-allItems {
+  display: flex;
+  gap: 3rem;
+  margin: 6rem;
+  height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-allItems {
+    flex-direction: column;
+    align-items: center;
+  }
+}

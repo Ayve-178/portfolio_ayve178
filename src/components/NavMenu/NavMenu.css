@@ -1,0 +1,93 @@
+.navMenu {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background: #262626;
+}
+
+ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  border-radius: 8px;
+  transition: 0.3s ease transform;
+}
+
+li:hover {
+  background-color: #1e1e1e;
+}
+
+a {
+  display: inline-block;
+  font-family: "RobotoMono Regular";
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: rgb(180, 176, 176);
+  outline: none;
+}
+
+li .active {
+  color: white;
+}
+
+.mobile-menu-icon {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  width: 4rem;
+  cursor: pointer;
+  display: none;
+  outline: none;
+}
+
+.mobile-menu-icon * {
+  pointer-events: none;
+}
+
+.closeNavIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-item {
+    transform: translateY(calc(-100% - 1rem));
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .navItems {
+    padding: 0;
+    transition: 0.3s ease transform;
+    background-color: #1e1e1e;
+    padding: 2rem;
+    width: 90%;
+    min-width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .closeNavIcon {
+    display: block;
+    width: 3rem;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+  }
+
+  .closeNavIcon * {
+    pointer-events: none;
+  }
+
+  li {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
