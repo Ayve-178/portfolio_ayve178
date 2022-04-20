@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio_ayve178/static/css/main.23fbc365.css",
+    "main.js": "/portfolio_ayve178/static/js/main.72bb9497.js",
+    "static/media/SquareQuick_202242035625999.jpg": "/portfolio_ayve178/static/media/SquareQuick_202242035625999.6d8173773839ef75e054.jpg",
+    "static/media/Montserrat-Bold.ttf": "/portfolio_ayve178/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/portfolio_ayve178/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/RobotoMono-Regular.ttf": "/portfolio_ayve178/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
+    "static/media/images (16).jpeg": "/portfolio_ayve178/static/media/images (16).21d5ae6994d9b76a1d76.jpeg",
+    "static/media/images (18).jpeg": "/portfolio_ayve178/static/media/images (18).ae6480ee58bb8d2341c6.jpeg",
+    "static/media/shop.jpg": "/portfolio_ayve178/static/media/shop.e0fcb14c4cab234f3962.jpg",
+    "static/media/images (17).jpeg": "/portfolio_ayve178/static/media/images (17).22a567420da9751a00d1.jpeg",
+    "static/media/images (15).jpeg": "/portfolio_ayve178/static/media/images (15).2b3b326b37c1097e129e.jpeg",
+    "index.html": "/portfolio_ayve178/index.html",
+    "main.23fbc365.css.map": "/portfolio_ayve178/static/css/main.23fbc365.css.map",
+    "main.72bb9497.js.map": "/portfolio_ayve178/static/js/main.72bb9497.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23fbc365.css",
+    "static/js/main.72bb9497.js"
+  ]
+}
